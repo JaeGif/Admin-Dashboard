@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+    width: 100vw;
+}
+.nav-container {
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.header-container {
+    background-color: black;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.card-container {
+    background-color: blueviolet;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
