@@ -83,7 +83,7 @@ ul li {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    gap: 10px;
 }
 #info-scroll div {
     background-color: white;
@@ -94,6 +94,6 @@ ul li {
     width: 100%;
 }
 #announcements ul li, #trending ul li{
-    height: fit-content;
+    overflow: scroll;
     border: solid thin black;
 }
