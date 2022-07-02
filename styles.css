@@ -20,6 +20,13 @@ body {
     background-color: red;
     grid-column: 2/3;
     grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-row: 1fr 1fr;
+}
+.header-container input[for="search"] {
+    height: 30px;
+    border-radius: 16px;
 }
 .card-container {
     background-color: blueviolet;
@@ -66,10 +73,11 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    height: 100%;
+    height: fit-content;
     width: 100%;
 }
-#announcements div, #trending div{
+#announcements ul li, #trending ul li{
+    height: fit-content;
     border: solid thin black;
 }
 
