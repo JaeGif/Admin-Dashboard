@@ -23,8 +23,10 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
 }
 .nav-container div {
     background-color: white;
@@ -41,11 +43,11 @@ body {
 }
 #info-scroll {
     grid-column: 3/4;
-    grid-row: 1/2;
+    grid-row: 1/4;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 50px;
+    gap: 20px;
 }
 #info-scroll div {
     background-color: white;
