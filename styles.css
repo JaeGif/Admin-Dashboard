@@ -98,3 +98,8 @@ ul li {
     overflow: visible;
     height: max-content;
 }
+details > summary{
+    border: none;
+    cursor: pointer;
+    list-style: none;
+}
