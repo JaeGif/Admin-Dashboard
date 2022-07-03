@@ -90,10 +90,11 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    height: fit-content;
+    height: max-content;
     width: 100%;
+    padding: 10px;
 }
 #announcements ul li, #trending ul li{
-    overflow: scroll;
-    border: solid thin black;
+    overflow: visible;
+    height: max-content;
 }
