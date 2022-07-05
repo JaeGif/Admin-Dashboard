@@ -86,6 +86,13 @@ ul li {
 }
 .card {
     background-color: var(--main-color);
+    padding: 2px 20px 20px;
+}
+.card > h5 {
+    font-size: 14px;
+}
+.card > p {
+    color: rgb(95, 95, 95);
 }
 #info-scroll {
     grid-column: 3/4;
@@ -103,6 +110,10 @@ ul li {
     height: max-content;
     width: 100%;
     padding: 10px;
+}
+#announcements > h4,
+#trending > h4 {
+    font-size: 14px;
 }
 #announcements ul li, #trending ul li{
     overflow: visible;
