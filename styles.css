@@ -43,10 +43,16 @@ body {
     display: flex;
     grid-column: 1/2;
     grid-row: 2/3;
+    justify-content: flex-start;
+    padding-left: 5px;
+    align-items: center;
 }
 .header-container #notification-bar {
     grid-column: 2/3;
     grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header-container #button-bar {
     grid-column: 2/3;
