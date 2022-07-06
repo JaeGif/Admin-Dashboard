@@ -29,7 +29,6 @@ body {
     display: grid;
     grid-template-columns: 5fr 3fr;
     grid-row: 1fr 1fr;
-    box-shadow: 10px 5px 5px #111111;
 }
 .header-container input[for="search"] {
     height: 25px;
