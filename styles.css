@@ -47,6 +47,13 @@ body {
     padding-left: 5px;
     align-items: center;
 }
+.pfp {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
 .header-container #notification-bar {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -93,6 +100,7 @@ ul li {
 .card {
     background-color: var(--main-color);
     padding: 2px 20px 20px;
+    border-radius: 5px;
 }
 .card > h5 {
     font-size: 14px;
@@ -116,10 +124,14 @@ ul li {
     height: max-content;
     width: 100%;
     padding: 10px;
+
 }
 #announcements > h4,
 #trending > h4 {
     font-size: 14px;
+}
+#announcements, #trending {
+    border-radius: 5px;
 }
 #announcements ul li, #trending ul li{
     overflow: visible;
