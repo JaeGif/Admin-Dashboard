@@ -17,10 +17,11 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr 1fr 5fr;
+    padding: 15px;
+    font-size: 1.2em;
 }
 #logo h1 {
-    font-size: 24px;
-    text-align: center;
+    font-size: 1.5em;
 }
 .header-container {
     background-color: var(--main-color);
@@ -31,8 +32,8 @@ body {
     grid-row: 1fr 1fr;
 }
 .header-container input[for="search"] {
-    height: 25px;
-    border-radius: 16px;
+    height: 2.5em;
+    border-radius: 1.25em;
     border: none;
     margin: 5px;
     grid-column: 1/2;
@@ -82,6 +83,7 @@ body {
 }
 .nav-container {
     background-color: var(--main-dark-color);
+
 }
 #menu {
     grid-row: 2/3;
@@ -100,6 +102,10 @@ ul {
 ul li {
     height: 35px;
 }
+#github-logo {
+  position: relative;
+  margin-bottom: -19px;
+}
 .card {
     background-color: var(--main-color);
     padding: 2px 20px 20px;
@@ -116,29 +122,44 @@ ul li {
     grid-row: 1/4;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     gap: 10px;
 }
 #info-scroll div {
     background-color: var(--main-color);
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
-    height: max-content;
-    width: 100%;
-    padding: 10px;
-
+    width: 95%;
+}
+#announcements {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  height: max-content;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 #announcements > h4,
 #trending > h4 {
-    font-size: 14px;
+    font-size: 1em;
 }
 #announcements, #trending {
     border-radius: 5px;
 }
-#announcements ul li, #trending ul li{
+#announcements ul li, #trending {
     overflow: visible;
     height: max-content;
+}
+#trending {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .1fr 1fr 1fr 1fr 1fr;
+  height: max-content;
+  padding-left: 10px;
+}
+#trending p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
 }
 details > summary {
     border: none;
