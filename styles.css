@@ -86,6 +86,10 @@ body {
 #menu {
     grid-row: 2/3;
 }
+.menu {
+  position: relative;
+  margin-bottom: -5.5px;
+}
 #lower-menu {
     grid-row: 3/4;
 }
@@ -213,6 +217,10 @@ button:hover:after {
   --border: 3px solid var(--secondary-color);
   -webkit-animation: border-bottom-and-left .75s forwards;
   animation: border-bottom-and-left .75s forwards;
+}
+a {
+  color: black;
+  text-decoration: none;
 }
 @-webkit-keyframes border-top-and-right {
   0% {
