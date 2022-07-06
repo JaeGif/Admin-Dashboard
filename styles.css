@@ -30,14 +30,20 @@ body {
     display: grid;
     grid-template-columns: 5fr 3fr;
     grid-row: 1fr 1fr;
+    padding: 10px;
+}
+#search-div {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  align-items: center;
 }
 .header-container input[for="search"] {
     height: 2.5em;
     border-radius: 1.25em;
     border: none;
-    margin: 5px;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    margin-left: 5px;
+    width: 90%;
 }
 .header-container #admin-name {
     display: flex;
