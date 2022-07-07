@@ -137,14 +137,23 @@ ul li {
 }
 .card {
   background-color: var(--main-color);
-  padding: 2px 20px 20px;
+  padding: 0px 20px 20px;
   border-radius: 5px;
   border-left: solid 5px var(--highlight-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
 }
 .card > h5 {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 .card > p {
+  margin-top: -1em;
   color: rgb(95, 95, 95);
   font-size: .8em;
 }
@@ -200,10 +209,6 @@ details > summary {
   cursor: pointer;
   list-style: none;
 }
-hr {
-  width: 90%;
-}
-
   /* Button Animation */
 button,
 button *,
